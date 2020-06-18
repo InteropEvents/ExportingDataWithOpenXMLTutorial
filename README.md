@@ -1,59 +1,56 @@
-# Microsoft 365 DevDays ExportingDataOpenXML Workshop
+# Microsoft 365 DevDays ExportingData with OpenXML Tutorial
 
 ## Contents
 
-- [Exporting Data using Microsoft Graph, OXML, and SDK Office Add-ins](#exporting-data-using-microsoft-graph,-oxml,-and-sdk-office-add-ins)
+- [Exporting Data using Microsoft Graph and the OpenXML SDK](#exporting-data-using-microsoft-graph-and-the-openxml-sdk)
 - [What the code does](#what-the-code-does)
 - [Prerequisites](#prerequisites)
 - [Get started](#get-started)
 - [Follow the tutorial](#follow-the-tutorial)
 
-## Exporting Data using Microsoft Graph, OXML, and SDK Office Add-ins
+## Exporting Data using Microsoft Graph and the OpenXML SDK 
 
-In this repo you'll find steps to create an application which generates an Excel workbook, modify the application to drive the worksheet generation by data and pin an Excel add-in to that workbook.
+In this repo you'll find steps to create an application which generates an Excel workbook and modify the application to drive the worksheet generation by data.
 
 ## What the code does
 
-The code is generated initially by the Open XML SDK Productivity Tool. This reflects C# code from a template document. This provides the base from which customizations can be made.
+The code is generated initially by the Open XML SDK Productivity Tool. This reflects C# code from a template document. This provides the base from which customization can be made.
 
 The worksheet generation is modified using snippets in this tutorial to build a table from Microsoft Graph generated JSON data.
-
-Finally, the worksheet generation code is modified to "pin" (auto open) an Excel JS add-in to the workbook.
 
 ![Report Cover](Assets/report_cover.png)
 ![Report Data Sheet](Assets/report_data.png)
 
 ## Prerequisites
 
-- Office account tenant for your team
-- Visual Studio (Community is fine)
+- Microsoft Office account tenant for your team
+- [Visual Studio](https://visualstudio.microsoft.com/downloads) (Community is fine)
   - NOTE: Install the [following workloads](Assets/vsinstallworkloads.png) for VS:
         - .Net desktop development
         - Office/Sharepoint development
         - .Net Core cross-platform development
-- Git command line tools
+- [Git command line tools](https://git-scm.com/downloads)
 - Web browser (Chrome or Edge are fine)
-- Open XML SDK Productivity Tool
-- Open XML SDK from nuget.org
+- [Open XML SDK Productivity Tool](https://github.com/InteropEvents/ExportingDataOpenXMLTools)
+- [Open XML SDK from nuget.org](https://www.nuget.org/packages/DocumentFormat.OpenXml)
 
 ## Get started
 
 ### Local Share: `https://aka.ms/DevDaysWorkshop`
 
-
 1. Start by cloning this whole repository to your local system so you have all the data files, example reports, folders and working solution for reference.  Use the Github `Clone or download` button to copy the URL and then issue this command:
 
-    `git clone https://github.com/InteropEvents/ExportingDataOpenXML.git`
+    `https://github.com/InteropEvents/ExportingDataWithOpenXMLTutorial.git`
 
 1. Or, alternatively, download the zip file using the Github `Clone or download` button:
 
     ![Download Zipfile](Assets/downloadzip.png)
 
-1. Go to the Tools folder in the repo and run:
+1. Download the OpenXML SDK Productivity Tool .msi installer here:
 
-    `Tools\OpenXMLSDKToolV25.msi`
+    [https://github.com/InteropEvents/ExportingDataOpenXMLTools](https://github.com/InteropEvents/ExportingDataOpenXMLTools)
 
-   This will install the Open XML SDK Productivity Tool used in Module 1.
+   The `OpenXMLSDKToolV25.msi` in that repo will install the Open XML SDK Productivity Tool used in Module 1.
 
 ## Follow the tutorial
 
