@@ -38,19 +38,23 @@ The worksheet generation is modified using snippets in this tutorial to build a 
 
 ### Local Share: `https://aka.ms/DevDaysWorkshop`
 
-1. Start by cloning this whole repository to your local system so you have all the data files, example reports, folders and working solution for reference.  Use the Github `Clone or download` button to copy the URL and then issue this command:
+1. Start by cloning this whole repository to your local system so you have all the data files, example reports, and folders. Use the Github `Clone or download` button to copy the URL and then issue this command:
 
-    `https://github.com/InteropEvents/ExportingDataWithOpenXMLTutorial.git`
+    `git clone https://github.com/InteropEvents/ExportingDataWithOpenXMLTutorial.git`
 
 1. Or, alternatively, download the zip file using the Github `Clone or download` button:
 
     ![Download Zipfile](Assets/downloadzip.png)
 
-1. Download the OpenXML SDK Productivity Tool .msi installer here:
+1. If you haven't already retrieved the *OpenXML SDK Productivity Tool .msi installer* from a local share, download it here:
 
     [https://github.com/InteropEvents/ExportingDataOpenXMLTools](https://github.com/InteropEvents/ExportingDataOpenXMLTools)
 
    The `OpenXMLSDKToolV25.msi` in that repo will install the Open XML SDK Productivity Tool used in Module 1.
+
+1. You can also clone the working solution to a separate folder for reference from here: 
+
+    `git clone https://github.com/InteropEvents/ExportingDataWithOpenXMLSolution.git`
 
 ## Follow the tutorial
 
