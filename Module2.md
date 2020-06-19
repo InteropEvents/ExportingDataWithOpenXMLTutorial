@@ -14,11 +14,7 @@ First we will have to generate some data from Microsft Graph and for this we wil
 
     No need to log in or enter credentials. We will use stock sample data for our development. 
 
-1. Click on `show more samples`: 
-
-    ![Show More Samples](Assets/showmoresamples.png)
-
-1. Select the `Planner (13)` option: 
+1. In the left hand panel, select the "Planner" samples: 
 
     ![Planner Samples](Assets/plannersamples.png)
 
