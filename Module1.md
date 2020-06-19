@@ -130,6 +130,7 @@ We will then add that reflected code to a C# .Net Core project and test it to ma
             {
                 Generator g = new Generator();
                 g.CreatePackage(args[0]);
+                Console.WriteLine("Hit Enter to finish...");
                 Console.ReadLine();
             }
         }
