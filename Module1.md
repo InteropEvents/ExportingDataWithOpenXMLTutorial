@@ -6,6 +6,8 @@ In Module 1, you will start by using the Open XML SDK Productivity Tool. This re
 
 We will then add that reflected code to a C# .Net Core project and test it to make sure it generates the same workbook we started with.
 
+#### MacOS: The OpenXML SDK Productivity Tool currently only supports Windows platforms. If you are using MacOS, read through this module to understand where the base code originates and then go to [Module 2](Module2.md) to continue. The code generated here will be included in Module2. 
+
 ## Reflect code to build our report programmatically
 
 1. From the start menu, run the Open XML SDK Productivity Tool:

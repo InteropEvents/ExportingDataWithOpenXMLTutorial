@@ -42,6 +42,14 @@ The report generation project from Module 1 has been copied to Module2 and upgra
     
     The JSON processing is done in `initDataObject` in `Generator.cs`.
 
+#### MacOS: In `initDataObject()` within `Generator.cs`, find the line: 
+
+    `using (StreamReader r = new StreamReader(@"..\..\..\..\..\tasksdata.json"))`
+
+#### and change all the back-slashes to forward-slashes:
+
+    `using (StreamReader r = new StreamReader(@"../../../../../tasksdata.json"))`
+
 ### Learn: To understand the JSON processing, check out the [New System.Text.JSON blog](https://devblogs.microsoft.com/dotnet/try-the-new-system-text-json-apis/).
 
 1. Open the `Generator.cs` module and find the `CreateParts` function. In that function look for the following lines which create the data worksheet and the table definition:
@@ -80,10 +88,14 @@ The report generation project from Module 1 has been copied to Module2 and upgra
 
     ![Debug Argument](Assets/debug_argument.png)
 
+#### MacOS: For Visual Studio on MacOS, you can should the program argument to `TestReport.xlsx` from the [Run menu](Assets/runmenu.png) and [Custom configuration dialog](Assets/customconfigdlg.png).
+
 1. Use `F5` to build and run the generator. The console window will stop after displaying some output and wait for you to hit `Enter`.
 
 1. Load the workbook into Excel by opening Windows explorer and navigating to:
     `PracticeSolution\Module2\reportgenerator\TestReport.xlsx`
+
+#### MacOS: On MacOS, you can open `TestReport.xlsx` from the command line using [this path](Assets/openxlsxpath.png).
 
 1. Verify the data in the `Focus Task Data` worksheet against the task json data we pulled from Microsoft Graph. Does it match?
 
