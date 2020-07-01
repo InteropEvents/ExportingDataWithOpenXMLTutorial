@@ -48,6 +48,14 @@ The worksheet generation is modified using snippets in this tutorial to build a 
 
 1. If you haven't already retrieved the *OpenXML SDK Productivity Tool .msi installer* from a local share, download it here:
 
+    [OpenXMLSDKToolV25.msi](Assets/OpenXMLSDKToolV25.msi)
+
+    Just click on the "Download" button:
+
+    ![Download MSI](Assets/downloadtoolmsi.png)
+
+    The same MSI is also here:
+
     [https://github.com/InteropEvents/ExportingDataOpenXMLTools](https://github.com/InteropEvents/ExportingDataOpenXMLTools)
 
    The `OpenXMLSDKToolV25.msi` in that repo will install the Open XML SDK Productivity Tool used in Module 1.
