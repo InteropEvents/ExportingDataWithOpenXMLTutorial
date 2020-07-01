@@ -58,7 +58,7 @@ The worksheet generation is modified using snippets in this tutorial to build a 
 
     [https://github.com/InteropEvents/ExportingDataOpenXMLTools](https://github.com/InteropEvents/ExportingDataOpenXMLTools)
 
-   The `OpenXMLSDKToolV25.msi` in that repo will install the Open XML SDK Productivity Tool used in Module 1.
+    This `OpenXMLSDKToolV25.msi` will install the Open XML SDK Productivity Tool used in Module 1.
 
 1. You can also clone the working solution to a separate folder for reference from here: 
 
